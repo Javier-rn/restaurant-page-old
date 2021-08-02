@@ -18,7 +18,7 @@ function homePageLoad() {
 
     const img1 = document.createElement('img');
     img1.setAttribute('class', 'section-imgs');
-    img1.setAttribute('src', '../assets/italian-rest-1.jpg');
+    img1.setAttribute('src', 'italian-rest-1.jpg');
 
     const article2 = document.createElement('article');
     article2.setAttribute('id', 'hours');

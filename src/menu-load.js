@@ -15,7 +15,7 @@ function menuLoad() {
     plate1ImgDiv.classList.add('plateImg');
 
     const imgPlate1 = document.createElement('img');
-    imgPlate1.setAttribute('src', '../assets/pizza-2.jpg');
+    imgPlate1.setAttribute('src', 'pizza-2.jpg');
 
     plate1ImgDiv.appendChild(imgPlate1);
 
@@ -43,7 +43,7 @@ function menuLoad() {
     plate2ImgDiv.classList.add('plateImg');
 
     const imgPlate2 = document.createElement('img');
-    imgPlate2.setAttribute('src', '../assets/pasta-3.jpg');
+    imgPlate2.setAttribute('src', 'pasta-3.jpg');
 
     plate2ImgDiv.appendChild(imgPlate2);
 
@@ -71,7 +71,7 @@ function menuLoad() {
     plate3ImgDiv.classList.add('plateImg');
 
     const imgPlate3 = document.createElement('img');
-    imgPlate3.setAttribute('src', '../assets/pasta-1.jpg');
+    imgPlate3.setAttribute('src', 'pasta-1.jpg');
 
     plate3ImgDiv.appendChild(imgPlate3);
 
