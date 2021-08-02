@@ -1,0 +1,123 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/food.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 97.7vh;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.4em;
+    
+}
+
+#menu {
+    list-style-type: none;
+    margin-top: 0.3em;
+    padding: 0;
+    font-size: 1.6em;
+    background-color: rgba(89, 89, 89, 0.797);
+    border-radius: 5px;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.6em 1.5em;
+    text-decoration: none;
+    transition: all 0.1s;
+  }
+
+li a:hover {
+    background-color: rgba(67, 67, 67, 0.899);
+}
+
+#description {
+    text-align: center;
+    margin-top: 1em;
+    width: 70em;
+    background-color: rgba(80, 53, 19, 0.338);
+    border-radius: 10px;
+    border: 0.8em solid rgba(80, 53, 19, 0.735);
+
+}
+
+section {
+    color: white;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#history {
+    background-color: #3d2d0bbf;
+    padding: 2em;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#history p {
+    font-size: 1.05em;
+    width: 30em;
+    line-height: 1.6em;
+}
+
+#hours {
+    align-self: center;
+    text-align: left;
+    width: 13em;
+}
+
+#hours h3 {
+    text-align: center;
+}
+
+
+#description ul {
+    line-height: 1.6em;
+}
+
+.section-imgs {
+    width: 20em;
+}
+
+.plate {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.15em;
+    background-color: rgba(57, 31, 17, 0.671);
+    margin: 1.5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plateImg img {
+    width: 20em;
+}
+
+#contact-us  {
+    color: white;
+    padding: 1.2em;
+}
+
+#adress {
+    color: white;
+    padding-bottom: 1.6em;
+}
